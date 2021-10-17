@@ -1,0 +1,53 @@
+.container-fluid {
+
+
+}
+
+.row {
+    opacity: 1;
+}
+.header {
+    background-color: rgb(131, 129, 231);
+}
+.sign {
+    background-color: tomato;
+}
+.sign-img {
+    background: url(/img/header.jpg) left 50% top 50%;
+    background-size: cover;
+    height: 550px;
+    color: white;
+}
+.sign-btn {
+    color: white;
+}
+
+.about-img {
+    background-image: url(/img/about_2.jpg);
+    background-size: cover;
+    height: 550px;
+}
+
+.portfolio {
+    background-color:darkred;
+}
+
+.portfolio-img {
+    height: 400px;
+    width: 400px;
+    box-shadow: 3px 3px 9px black;
+    border-radius: 5px;
+}
+.portfolio-text {
+    color: white;
+}
+
+footer {
+    background-color: rgb(73, 36, 10);
+    color: white;
+}
+
+footer .copy{
+    background-color: black;
+    color: white;
+}
