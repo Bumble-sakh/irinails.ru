@@ -10,9 +10,9 @@
 </head>
 <body>
 
-    <div class="container-fluid">
+    <div class="container-fluid px-0">
 
-        <header class="row justify-content-center">
+        <header class="header row justify-content-center">
             <div class="col-8">
                 <nav class="navbar navbar-expand navbar-light d-flex justify-content-between">
                     <a class="navbar-brand" href="#">Irinails</a>
@@ -29,16 +29,20 @@
                     </ul>
                 </nav>
             </div>
-            <div class="row justify-content-center align-items-center sign-img">
-                <div class="col-8">
-                    <h2>Услуги мастера маникюра</h2>
-                    <p>Записаться можно по телефону +7(996)269-25-57 или просто на нашем сайте.</p>
-                    <button class="btn btn-lg btn-info sign-btn">Записаться</button>  
-                </div>
-            </div>
         </header>
 
-        <div class="row justify-content-center price sign">
+        
+        <div class="sign-img row justify-content-center align-items-center">
+            <div class="sign col-8">
+                <p class="h1 fw-bold">Услуги мастера маникюра</h2>
+                <p class="fs-5 my-5">Записаться можно по телефону +7(996)269-25-57 или просто на нашем сайте.</p>
+                <button class="sign-btn btn btn-lg btn-info">Записаться</button>  
+            </div>
+        </div>
+        
+
+        <div class="services row justify-content-center">
+            
             <div class="col-8">
                 <div class="row justify-content-center">
                     <div class="card m-4" style="width: 18rem;">
@@ -74,9 +78,9 @@
             </div>
         </div>
 
-        <div class="row align-items-center about">
-            <div class="col">
-                <h2>Немного обо мне</h2>
+        <div class="about row align-items-center">
+            <div class="col about-text">
+                <p class="h1">Немного обо мне</p >
                 <p><strong>Ирина Асессорова</strong> — один из лучших профессиональных мастеров в Росийской Федерации, отмечена сотнями наград и премий. Участница многих имиджевых проектов, в том числе и на телевидении.</p>          <p><strong>Приглашаю вас попробовать мои услуги!</strong></p>
                 <p>Я уверна, что смогу осуществить ваши мечты и сделать вас самой красивой</p>
                 <p>В дальнейшем, в разделе, специально посвящённом теории цветовой выразительности, я попытаюсь описать выразительные возможности цвета. Однако, форма, также как и цвет, обладает своей «чувственно-нравственной»выразительной ценностью.</p>
@@ -84,7 +88,7 @@
             <div class="col about-img"></div>
         </div>
 
-        <div class="row justify-content-center portfolio">
+        <div class="portfolio row justify-content-center">
             <div class="col-8">
                 <h1>Портфолио</h1>
                 <div class="d-flex flex-row">
@@ -129,11 +133,9 @@
                 </div>
             </div>
             
-        </div>
+        </div>          
 
-          
-
-        <footer class="row">
+        <footer class="footer row">
             <div class="row justify-content-center">
             <div class="col-5">
                 <h2>Irinails.ru</h2>
@@ -153,8 +155,6 @@
         </footer>              
    
     </div>
-        
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
