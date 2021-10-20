@@ -25,30 +25,29 @@
         <header class="header row justify-content-center">
             <div class="col-8">
                 <div class="d-flex flex-wrap justify-content-center py-3">
-                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+                    <a href="#home" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
                       <span class="logo-text fs-4">Irinails</span>
                     </a>
               
                     <ul class="nav nav-pills">
-                      <li class="nav-item"><a href="#sign" class="nav-link active" aria-current="page">Записаться</a></li>
+                      <li class="nav-item"><a href="#sign" class="nav-link active">Записаться</a></li>
                       <li class="nav-item"><a href="#services" class="nav-link">Услуги</a></li>
                       <li class="nav-item"><a href="#about" class="nav-link">Обо мне</a></li>
                       <li class="nav-item"><a href="#portfolio" class="nav-link">Портфолио</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>            
         </header>
         
-        <div class="sign-img row justify-content-center align-items-center">
+        <div id="sign" class="sign-img row justify-content-center align-items-center">
             <div class="sign col-8">
                 <p class="h1 fw-bold">Услуги мастера маникюра</h2>
                 <p class="fs-5 my-5">Записаться можно по телефону +7(996)269-25-57 или просто на нашем сайте.</p>
                 <button class="sign-btn btn btn-lg btn-primary">Записаться</button>  
             </div>
-        </div>
-        
+        </div>        
 
-        <div class="services row justify-content-center" id="services">
+        <div id="services" class="services row justify-content-center">
             
             <div class="col-8">
                 <div class="row justify-content-center">
@@ -90,17 +89,18 @@
             </div>
         </div>
 
-        <div class="about row align-items-center" id="about">
-            <div class="col about-text">
+        <div id="about" class="about row align-items-center">
+            <div class="col-4 about-text">
                 <p class="h1">Немного обо мне</p >
-                <p><strong>Ирина Асессорова</strong> — один из лучших профессиональных мастеров в Росийской Федерации, отмечена сотнями наград и премий. Участница многих имиджевых проектов, в том числе и на телевидении.</p>          <p><strong>Приглашаю вас попробовать мои услуги!</strong></p>
-                <p>Я уверна, что смогу осуществить ваши мечты и сделать вас самой красивой</p>
-                <p>В дальнейшем, в разделе, специально посвящённом теории цветовой выразительности, я попытаюсь описать выразительные возможности цвета. Однако, форма, также как и цвет, обладает своей «чувственно-нравственной»выразительной ценностью.</p>
+                <p><strong>Ирина Асессорова</strong> — дипломированный мастер маникюра.</p>
+                <p>Окончила Южно-Сахалинскую школу маникюра "Академия красоты"</p>
+                <p>Владею различными техниками маникюра, моделирования и дизайна ногтей</p>
+                <p><strong>Приглашаю вас попробовать мои услуги!</strong></p>                
             </div>
             <div class="col about-img"></div>
         </div>
 
-        <div class="portfolio row justify-content-center" id="portfolio">
+        <div id="portfolio" class="portfolio row justify-content-center">
             <div class="col-8 my-5">
                 
              <!-- Fotorama -->
@@ -135,8 +135,9 @@
             <div class="row copy">
                 <div class="col">Irinails.ru © 2021 | Все права защищены</div>
             </div>
-        </footer>              
-   
+        </footer>
+
+        <script src="/js/script.js"></script>
     </div>
 </body>
 </html>
